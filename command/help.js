@@ -11,7 +11,7 @@ function toCommas(x) {
 }
 exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerName, botName, jam, tanggal, runtime, isCreator, isPremium, sender, limitCount, limit, gcount, glimit, balance, prefix) => {
     return`${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}
-_*Hitung Mundur Tahun Baru*_
+Hitung Mundur Tahun Baru
 ${mundur}
 
 ╭─❍〘 MAIN MENU 〙
@@ -46,7 +46,7 @@ ${mundur}
 │ ❏ ${prefix}say
 │ ❏ ${prefix}translate
 ╰──❍
-╭─❍〘 ANONYMOUS CHAT 〙
+╭─❍〘 ANOMUS CHAT 〙
 │ ❏ ${prefix}menfess
 │ ❏ ${prefix}anonymous
 │ ❏ ${prefix}start
